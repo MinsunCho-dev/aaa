@@ -10,4 +10,11 @@ public class HelloController {
 		System.out.println("hello");
 		return "hello";
 	}	
+	
+	@GetMapping("/Hello2") 
+	public String Hello2() {
+		return "Hello2";
+				
+	}
+	
 }
